@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOGA</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Pushster', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://i.pinimg.com/236x/06/f2/c4/06f2c44b42073c8db7f9270ef998f210.jpg')no-repeat center center/cover;
+         
+        
+    }
+    .left div{
+        text-align:center ;
+    }
+    .left img{
+        width: 100px;
+    }
+    .left{
+        position: absolute;
+        left:20px;
+        top:20px;
+        
+        display: inline-block;
+        /* border:2px solid yellow; */
+    }
+    .right{
+        position: absolute;
+        right:20px;
+        top:20px;
+        display: inline-block;
+        /* =border:2px solid violet; */
+    }
+    .mid{
+        display: block;
+        
+        width:55%;
+        top: 20px;
+        margin: 20px auto;
+        /* border:2px solid rgb(226, 12, 12); */
+    }
+    .navbar{
+        display: inline-block;
+        
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+        
+        
+    }
+    .navbar li a{
+        color:rgb(2, 2, 2);
+       
+        text-decoration:none;
+        padding: 20px;
+        
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: rgb(243, 83, 20);
+    }
+    .btn:hover{
+        text-decoration: underline;
+        
+        background-color: rgb(238, 250, 11);
+
+    }
+    .btn{
+        font-family: 'Pushster', cursive;
+        margin: 0px 5px;
+        padding: 5px 15px;
+        /* border: 2px solid red; */
+        cursor: pointer;
+    }
+    .box{
+        background: url('https://i.pinimg.com/236x/40/fb/66/40fb66799dd01d2785e40752c792922a.jpg')no-repeat center center/cover;
+        border: 2px solid hotpink;
+        margin: 75px 50px;
+        padding: 75px;
+        width:33%;
+        /* =border-radius:30px ; */
+
+    }
+    .groupform input{
+        font-size: 20px;
+        display: block;
+        width: 375px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 3px auto;
+        /* border-radius: 8px;; */
+    }
+    .box h1{
+        text-align:center;
+    }
+    .box button{
+        display: block;
+        width:23%;
+        margin: auto;
+        ;
+    }
+</style>
+<body>
+    <header class="header">
+        
+        <div class="left">
+
+            <img src="http://www.firstpost.com/wp-content/uploads/2015/04/Yogalogo380_Twitter@MEAIndi.jpg"no-repeat center center alt="">
+            <div>
+                YOGA POWER
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">CALORIE CHECK</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">FEEDBACK</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn" >CALL US</button><button class="btn">EMAIL US</button>
+        </div>
+        <div class="left">
+            
+        </div>
+        
+    </header>
+    <div class="box">
+        <h1>JOIN THE BEST YOGACLASS OF INDIA</h1>
+        <form action="noaction.php">
+            <div class="groupform">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="groupform">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="groupform">
+                <input type="text" name="" placeholder="enter your gendre">
+            </div>
+            <div class="groupform">
+                <input type="text" name="" placeholder="enter your address">
+            </div>
+            <div class="groupform">
+                <input type="text" name="" placeholder="enter your contact">
+            </div>
+            <div class="groupform">
+                <input type="text" name="" placeholder="enter your number">
+            </div>
+            <div>
+                <button class="btn">SUBMIT</button>
+            </div>
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
